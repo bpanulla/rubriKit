@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rubric id="05861796-7793-11DD-B43C-078356D89593" creator="Carol McQuiggan" date="2008-08-18" title="Faculty Online Readiness Assessment Tool" scope="self">
+  <analyticRubric>
+  <categories>
+    <category name="Category 1: Organization and Time Management">
+      <assessmentElement id="E3C8A614-7792-11DD-B7FC-C68156D89593" levels="3">
+        <criterion>Time to Teach Online</criterion>
+        <description>Do you think face-to-face teaching takes less, the same, or more time than teaching online?</description>
+        <level points="5">
+          <benchmark>I expect online teaching to take more time and am prepared for it.</benchmark>
+          <feedback><![CDATA[It is great that you understand the extra time that online teaching requires, and that you can make that time available to serve your students well.]]></feedback>
+        </level>
+        <level points="3">
+          <benchmark>I realize the online teaching will take more time and think that I can manage spending the additional time.</benchmark>
+          <feedback><![CDATA[Since you are not certain that you are prepared to invest the time needed, be cautious as you consider teaching online. Online teaching is a major commitment, and if you cannot take the time required it could negatively impact your experience and that of your students.]]></feedback>
+        </level>
+        <level points="1">
+          <benchmark>I do not have enough time to do my work now.</benchmark>
+          <feedback><![CDATA[Since you stated that you do not have enough time to complete your current level of work, you should avoid teaching online until you can remove other time-consuming activities from your current list of responsibilities.]]></feedback>
+        </level>
+        <feedback><![CDATA[The research literature has conflicting reports on whether online teaching takes more, the same, or less time as teaching a face-to-face course. There are several variables that influence the amount of time it takes to teach online in comparison to a face-to-face course. It depends on the type of course, the course activities, and the role(s) the faculty member takes in the course. However, for your first online course you should expect to spend additional time preparing for and facilitating the course. In general, faculty report about a 10% increase in time for the first or second online teaching experience. In a study by Keeton (2004), faculty "agreed that teaching well online is more time-consuming than teaching face-to-face" (p. 77).]]></feedback>
+      </assessmentElement>
+      <assessmentElement id="10D66B28-7793-11DD-8C27-7A8356D89593" levels="3">
+        <criterion>Organizational Skills</criterion>
+        <description>Generally, how would you rate yourself on organizational skills related to paperwork and e-mail?</description>
+        <level points="5">
+          <benchmark>I am extremely organized.</benchmark>
+          <feedback><![CDATA[It is great that you are well organized. This could be an important strength for you.]]></feedback>
+        </level>
+        <level points="3">
+          <benchmark>I am fairly organized.</benchmark>
+          <feedback><![CDATA[Because you report that you are fairly organized, this should not be a problem for you.]]></feedback>
+        </level>
+        <level points="1">
+          <benchmark>I am poorly organized.</benchmark>
+          <feedback><![CDATA[Because you are poorly organized, you should think twice about teaching online before developing an organizational plan. Many online teachers find it helpful, for example, to teach first thing in the morning, before the other demands of the day interfere, and where they can teach from the same desk most days. This makes it possible to have important documents at your fingertips, etc.]]></feedback>
+        </level>
+        <feedback><![CDATA[Classroom management is just as important, if not more important, in an online course environment than it is for a "resident course." Having a plan in place for record keeping, e-mail/communication, grading assignments, and teacher-to-student interactions can make online teaching and learning a positive experience for all involved.]]></feedback>
+      </assessmentElement>
+      <assessmentElement id="1A90A570-7793-11DD-9A03-C18356D89593" levels="4">
+        <criterion>Planning</criterion>
+        <description>Are you a planner or a last-minute person?</description>
+        <level points="5">
+          <benchmark>I consistently plan my courses in advance.</benchmark>
+          <feedback><![CDATA[The fact that you consistenetly do things in advance bodes well for your success in online teaching.]]></feedback>
+        </level>
+        <level points="4">
+          <benchmark>I usually plan my courses in advance.</benchmark>
+          <feedback><![CDATA[The fact that you usually do things in advance will prove to be important to your online teaching success.]]></feedback>
+        </level>
+        <level points="2">
+          <benchmark>I occasionally plan my courses in advance.</benchmark>
+          <feedback><![CDATA[Because you tend to do things at the last minute, you should consider adopting a new routine, such as deciding to work with your online class the first thing each morning. That way you can remain in constant contact with your students and your last-minute tendencies will not interfere with the quality of your teaching.]]></feedback>
+        </level>
+        <level points="1">
+          <benchmark>I leave my coursework to the last minute. I hate to plan anything!</benchmark>
+          <feedback><![CDATA[Because you tend to do things at the last minute, you should consider adopting a new routine, such as deciding to work with your online class the first thing each morning. That way you can remain in constant contact with your students and your last minute tendencies will not interfere with the quality of your teaching.]]></feedback>
+        </level>
+        <feedback><![CDATA[Due to the "virtual nature" of much of the online teaching experience, keeping organized and on schedule can greatly impact your online success. The online classroom provides less flexibility to adjust to changing schedules and topics than the face-to-face classroom. If organization is not your forte, devising strategies or seeking assistance in developing and maintaining a regular schedule can be of tremendous help to the online instructor.]]></feedback>
+      </assessmentElement>
+      <assessmentElement id="1F085904-7793-11DD-8444-0E8456D89593" levels="4">
+        <criterion>Detail Orientation</criterion>
+        <description>How detail-oriented are you?</description>
+        <level points="5">
+          <benchmark>I am extremely detail-oriented.</benchmark>
+          <feedback><![CDATA[It is good that you report being extremely detail-oriented, because attention to the details such as who is participating, when they are participating, and how close to deadlines students submit work can all be important details that can help you become more effective.]]></feedback>
+        </level>
+        <level points="4">
+          <benchmark>I am very detail-oriented.</benchmark>
+          <feedback><![CDATA[It is good that you report being more detail-oriented than not, because attention to the details such as who is participating, when they are participating, and how close to deadlines students submit work can all be important details that can help you become more effective.]]></feedback>
+        </level>
+        <level points="3">
+          <benchmark>I am somewhat detail-oriented.</benchmark>
+          <feedback><![CDATA[Because you reported that you are somewhat detail-oriented, you may want to consider extra efforts to work on this. Attention to the details such as who is participating, when they are participating, and how close to deadlines students submit work can all be important details that can help you become more effective.]]></feedback>
+        </level>
+        <level points="1">
+          <benchmark>I am not at all detail-oriented.</benchmark>
+          <feedback><![CDATA[Because you reported that you are not at all detail-oriented, you may want to consider extra efforts to work on this. Attention to the details such as who is participating, when people tend to work on their online classes, and how close to deadlines students submit work can all be important details that can help you become more effective.]]></feedback>
+        </level>
+        <feedback><![CDATA[Online instruction has several advantages in the management of the class details due to the fact that most learning management systems (LMS) have extensive tracking systems for class participants. The challenge for the online instructor is to learn to use these tools to their advantage in order to bring the learning experience to a successful completion.]]></feedback>
+      </assessmentElement>
+      <assessmentElement id="2912B3A4-7793-11DD-8890-5A8456D89593" levels="3">
+        <criterion>Time Management</criterion>
+        <description>How are your time management skills?</description>
+        <level points="5">
+          <benchmark>I am able to stick to self-imposed schedules and I meet all or almost all deadlines.</benchmark>
+          <feedback><![CDATA[Since you reported that you are able to stick to self-imposed schedules and meet all or almost all of your deadlines, your future in online teaching looks bright. Many online teachers have most of the other skills it takes to be successful, but because they cannot push away other attractive or high priority activities they do not give online teaching the time it requires. This typically results in a negative experience. Since you have the ability to stick to a self-imposed schedule, the prospects look much brighter for you.]]></feedback>
+        </level>
+        <level points="3">
+          <benchmark>I am able to stick to self-imposed schedules and I meet most of my deadlines.</benchmark>
+          <feedback><![CDATA[Since you reported that you are able to stick to self-imposed schedules and meet all or almost all of your deadlines, your future in online teaching looks bright. Many online teachers have most of the other skills it takes to be successful, but because they cannot push away other attractive or high priority activities they do not give online teaching the time it requires. This typically results in a negative experience. Since you have the ability to stick to a self-imposed schedule, the prospects look much brighter for you]]></feedback>
+        </level>
+        <level points="1">
+          <benchmark>I have a lot of difficulty sticking to self-imposed schedules and meeting deadlines.</benchmark>
+          <feedback><![CDATA[Since you reported that you have a lot of difficulty sticking to self-imposed schedules and meeting deadlines, your future in online teaching should probably be postponed. Many online teachers have most of the other skills it takes to be successful, but because they cannot push away other attractive or high priority activities they do not give online teaching the time it requires. This typically results in a negative experience. If you cannot overcome this liability, "just say no" to online teaching for now.]]></feedback>
+        </level>
+        <feedback><![CDATA[Time management is one of the most critical skills for the successful online instructor. Because an asynchronous learning environment does not impose time constraints present in a face-to-face classroom experience, it is important for the instructor to establish and adhere to time allocations in order to manage the online workload. Clearly defining when the instructor will be active in the course, and communicating that to the class participants, can help by ensuring that online teaching time does not get usurped by other priorities and by potentially reducing the instructor workload.]]></feedback>
+      </assessmentElement>
+      <assessmentElement id="335208F6-7793-11DD-BAD3-CE8456D89593" levels="4">
+        <criterion>Frequency of Course Participation</criterion>
+        <description>How often will you be able to monitor your class activity and provide feedback?</description>
+        <level points="5">
+          <benchmark>I plan to log in several times a day.</benchmark>
+          <feedback><![CDATA[Since you indicated that you will generally be able to monitor class activity several times a day, online teaching should work well for you. Online students, especially adult online students, have limited windows of opportunity during which they can devote time and energy to coursework. A question that goes unanswered can be frustrating as students watch those precious opportunities to work slip by while waiting for a key piece of information from you. However, since you can attend to students' needs several times a day, this online teaching challenge will be minimized.]]></feedback>
+        </level>
+        <level points="4">
+          <benchmark>I plan to log in once a day.</benchmark>
+          <feedback><![CDATA[Since you indicated that you will generally be able to monitor class activity once a day, online teaching should work well for you. Online students, especially adult online students, have limited windows of opportunity during which they can devote time and energy to coursework. A question that goes unanswered can be frustrating as students watch those precious opportunities to work slip by while waiting for a key piece of information from you. However, since you can attend to students' needs at least once a day, this online teaching challenge should not impact your students' learning experience.]]></feedback>
+        </level>
+        <level points="2">
+          <benchmark>I plan to log in several times a week.</benchmark>
+          <feedback><![CDATA[Since you indicated that you will generally only be able to monitor class activity several times a week, online teaching might work out for you. Online students, especially adult online students, have limited windows of opportunity during which they can devote time and energy to coursework. A question that goes unanswered for a few days can be frustrating as students watch those precious opportunities to work slip by while waiting for a key piece of information from you. Try to make time for more frequent attention to student needs.]]></feedback>
+        </level>
+        <level points="1">
+          <benchmark>I plan to log in once a week.</benchmark>
+          <feedback><![CDATA[Since you indicated that you will generally only be able to monitor class activity once a week, online teaching might not work well for you. Online students, especially adult online students, have limited windows of opportunity during which they can devote time and energy to coursework. A question that goes unanswered for a week will be very frustrating as students watch those precious opportunities to work slip by while waiting for a key piece of information from you.]]></feedback>
+        </level>
+        <feedback><![CDATA[It is generally accepted as a best practice that the instructor actively monitor online class activity by logging into the course section at least once per day, Monday through Friday. The instructor should communicate their course work schedule at the beginning of the course. Since many online learners are active in the course over the weekend, the instructor may wish to articulate weekend hours as appropriate. Ko and Rossen (2004) suggest that faculty can manage student expectations in this area by including a "simple statement in the syllabus to the effect that the instructor will look in frequently during the week but may not be in the classroom every day" (p. 70). Other information you might want to include is your availability for real-time chat sessions as virtual office hours.]]></feedback>
+      </assessmentElement>
+    </category>
+    <category name="Category 2: Communicating Online">
+      <assessmentElement id="3EABDCE0-7793-11DD-B942-708556D89593" levels="4">
+        <criterion>Communicating In Writing</criterion>
+        <description>Are you more comfortable writing or speaking?</description>
+        <level points="5">
+          <benchmark>I can communicate in writing very easily and naturally.</benchmark>
+          <feedback><![CDATA[It is good that you report being able to easily and naturally articulate your thoughts in a clear and concise manner. This skill will make the online learning experience positive for everyone involved.]]></feedback>
+        </level>
+        <level points="4">
+          <benchmark>Communicating in writing is fairly easy for me.
+</benchmark>
+          <feedback><![CDATA[It is good that you report being able to articulate your thoughts in a clear and concise manner. As you continue or begin to teach online you will find that you will get better at this skill.]]></feedback>
+        </level>
+        <level points="2">
+          <benchmark>I struggle with communicating in writing and have to work at it.</benchmark>
+          <feedback><![CDATA[Since you indicated that articulating your thoughts in clear concise writing is a struggle for you, you may want to consider devoting extra effort to this because students rely so heavily on written text for instructions, feedback and general communication in an online environment. Being able to communicate in a clear and concise manner will make the learning experience more positive for all involved.]]></feedback>
+        </level>
+        <level points="1">
+          <benchmark>Communicating in writing is very hard for me.</benchmark>
+          <feedback><![CDATA[Since you indicated that articulating your thoughts in clear concise writing is hard for you, you may want to consider devoting extra effort to work on this because students rely so heavily on written text for instructions, feedback and general communication in an online environment. Being able to communicate in a clear and concise manner will make the learning experience more positive for all involved.No problem.]]></feedback>
+        </level>
+        <feedback><![CDATA[Since what is communicated online is written and, in some ways, permanent, higher standards are necessary and an instructor's writing serves as a model (Cummings, 1998). One commonly used strategy for ensuring clear and concise communications is to ask a colleague, graduate student or support staff to read and respond to sample course writings. This will often highlight style or content issues that can be improved upon in future course communications.]]></feedback>
+      </assessmentElement>
+      <assessmentElement id="4372D080-7793-11DD-835B-A08556D89593" levels="4">
+        <criterion>Conveying Personality</criterion>
+        <description>How well are you able to convey your personality and/or emotions through writing?</description>
+        <level points="5">
+          <benchmark>I can do so very easily and naturally.</benchmark>
+          <feedback><![CDATA[You reported that you are able to easily and naturally convey your personality and/or emotions through your writing. This skill will help you to establish a feeling of comfort among your students. Students tend to respond favorably to online instructors who can express their emotions clearly.]]></feedback>
+        </level>
+        <level points="4">
+          <benchmark>It is fairly easy for me.</benchmark>
+          <feedback><![CDATA[You reported that it is fairly easy for you to convey your personality and/or emotions through your writing. It is recommended to continue to improve on this skill. Most students respond well to the use of emoticons and by placing feelings in asterisks such as *smile*. As you continue to teach online you will develop some of your own "expressions" that will help you to communicate your thoughts clearly in your writing.]]></feedback>
+        </level>
+        <level points="2">
+          <benchmark>I struggle with this and have to work at it.</benchmark>
+          <feedback><![CDATA[You reported that it is a struggle for you to convey your personality and/or emotions through your writing. Since students do not really get to know your personality and mannerisms as they would in the classroom, they may misinterpret the meaning behind your text. You can work on improving this skill by using emoticons and by putting your feelings in asterisks such as *smile* to communicate your thoughts.]]></feedback>
+        </level>
+        <level points="1">
+          <benchmark>It is very hard for me.</benchmark>
+          <feedback><![CDATA[You reported that it is hard for you to convey your personality and/or emotions through your writing. Since students do not really get to know your personality and mannerisms as they would in the classroom, they may misinterpret the meaning behind your text. You can work on improving this skill by using emoticons and feelings in asterisks such as *smile* to communicate your thoughts.]]></feedback>
+        </level>
+        <feedback><![CDATA[In a classroom, you have your physical presence - your voice, body language, intonation, expressions, and gestures - to help you communicate with your students. In most online environments, instructors do not have this luxury. Therefore, online learning puts an inordinate emphasis on writing style, attitude, and intonation because it is being expressed in text. None of the conventional ways of modifying ambiguous or ironic statements such as the wink, the raised eyebrow, the shrug and/or the smile are available online. Thus, an instructor must pay particular attention to communication nuances.]]></feedback>
+      </assessmentElement>
+      <assessmentElement id="4BB8897E-7793-11DD-9636-1D8756D89593" levels="4">
+        <criterion>Comfort with Internet-based Communication Tools</criterion>
+        <description>How comfortable are you with the use of Internet-based communication technologies such as e-mail, chats, discussion forums, audio conferencing (i.e., iChat, Skype), web-based video conferencing (i.e., iChat, Adobe Connect Pro), blogs, and wikis?</description>
+        <level points="5">
+          <benchmark>I am comfortable with most or all of these tools.</benchmark>
+          <feedback><![CDATA[It is great that you reported being comfortable with most or all of the tools listed, because the use of Internet-based communication technologies will enhance your ability to engage students in the online learning environment. As you implement communication tools with which you are already familiar, you will be ready to investigate other types of communication tools that can make online learning so effective.]]></feedback>
+        </level>
+        <level points="4">
+          <benchmark>I am comfortable with a few of these tools.</benchmark>
+          <feedback><![CDATA[It is good that you reported being comfortable with a few of the tools listed, but you might want to expand your knowledge to include a few more. The use of Internet-based communication technologies will enhance your ability to engage students in the online learning environment. As you implement communication tools with which you are already familiar, you will be ready to investigate other types of communication tools that can make online learning so effective.]]></feedback>
+        </level>
+        <level points="1">
+          <benchmark>I am not comfortable with any of these tools.</benchmark>
+          <feedback><![CDATA[Since you have reported that you are not comfortable with any of these Internet-based communication tools, you should try to learn about them before beginning on an online teaching experience. These tools are powerful in enhancing the online learning experience.]]></feedback>
+        </level>
+        <level points="0">
+          <benchmark>I am not familiar with these tools.</benchmark>
+          <feedback><![CDATA[Since you have reported that you are not familiar with these Internet-based communications tools, you should try to learn about them before beginning on an online teaching experience. These tools are powerful in enhancing the online learning experience.]]></feedback>
+        </level>
+        <feedback><![CDATA[E-mail and discussion forums are essential tools in online teaching and learning. One use of live chat sessions and web conferencing is virtual office hours. Blogs and wikis are helpful tools for collaborative writing.]]></feedback>
+      </assessmentElement>
+    </category>
+    <category name="Category 3: Teaching and Online Experience">
+      <assessmentElement id="53B918AA-7793-11DD-B0FB-5D8756D89593" levels="2">
+        <criterion>Online Learning Experience</criterion>
+        <description>What kind of online learning experience do you have?</description>
+        <level points="1">
+          <benchmark>I have taken an online class as a student, either totally online or a blended/hybrid class.</benchmark>
+          <feedback><![CDATA[It is great that you report having taken an online course. As you teach online, use that experience. Think about what did and did not work for you in this class, and use your experience to integrate effective experiences into the class you teach.]]></feedback>
+        </level>
+        <level points="0">
+          <benchmark>I have not taken any online classes.</benchmark>
+          <feedback><![CDATA[Since you report that you have not taken a course online, you might try taking an online course to experience what it feels like to be a student in this environment. Then you will be able to think about what did and did not work for you in this class, and use your experience to integrate effective experiences into the class you teach.]]></feedback>
+        </level>
+        <feedback><![CDATA[Experiencing an online course from the student perspective will give you insight on what works and what does not work. You can integrate your experience with your teaching style to design your course.]]></feedback>
+      </assessmentElement>
+      <assessmentElement id="5F4A503A-7793-11DD-A47F-BB8756D89593" levels="3">
+        <criterion>Training Experience</criterion>
+        <description>What kind of training experience do you have for online teaching? Select the answer that best describes your experience.</description>
+        <level points="5">
+          <benchmark>I have reviewed a number of other faculty's online courses.</benchmark>
+          <feedback><![CDATA[It is great that you have reviewed courses created by others. As you prepare to teach your own courses, keep these questions in mind: What did you learn from these courses? Did you have an opportunity to talk with the faculty member who designed the course? Do you feel ready to teach a course on your own? Are there courses you might take, or help you might request to support you as you prepare to teach your first online course? Research indicates that a formal faculty development process to get started in the online environment will improve your online teaching experience.]]></feedback>
+        </level>
+        <level points="5">
+          <benchmark>I have gone through special training for online teaching.</benchmark>
+          <feedback><![CDATA[It is great that you have participated in courses designed to prepare you to effectively teach online courses. Remember to apply what you have learned, because research indicates that a formal faculty development process to get started in the online environment will improve your online teaching experience.]]></feedback>
+        </level>
+        <level points="1">
+          <benchmark>I have had no training for online teaching.</benchmark>
+          <feedback><![CDATA[It is unfortunate that you have not had the opportunity to participate in a course designed to make you a more effective teacher of online courses. Research shows that a formal faculty development program to help you get started in the online environment will improve your online teaching experience and your students' learning experience.]]></feedback>
+        </level>
+        <feedback><![CDATA[A faculty development program to help faculty work through the redesign process and learn new skills for the online environment is highly recommended (Aycock, et al., 2002; Dziuban, Hartman, Juge, Moskal, and Sorg, 2005; Dzuiban, Hartman, and Moskal, 2004; Dziuban, Hartman, Moskal, Sorg, and Truman, 2004; Laws, et al., 2003, Robison, 2004; University of Wisconsin, 2005; Voos, 2003). The faculty development program should include access to instructional designers, best practice models, and collaboration with experienced online faculty. It should also include sessions in online pedagogy to facilitate interaction and manage student expectations, and sessions to help faculty acquire the technical skills they need (Aycock, et al., 2002; Garnham and Kaleta, 2002; Laws, et al., 2003; McCray, 2000; University of Wisconsin, 2005).]]></feedback>
+      </assessmentElement>
+      <assessmentElement id="67D63EF8-7793-11DD-9E5F-FD8756D89593" levels="3">
+        <criterion>Learning Objectives</criterion>
+        <description>Do your lessons typically include specific learning objectives?</description>
+        <level points="5">
+          <benchmark>I always include learning objectives and I clearly communicate them to my students.</benchmark>
+          <feedback><![CDATA[It is great that you always include learning objectives in the lessons you design and teach. Kudos! Clearly written learning objectives are important when teaching online.]]></feedback>
+        </level>
+        <level points="3">
+          <benchmark>I have learning objectives, but they are just in my head.</benchmark>
+          <feedback><![CDATA[It is great that you have the objectives in your head, but unfortunate that you usually do not include learning objectives overtly in the lessons you design and teach. In the online environment (as in the face-to-face environment) it helps to state your learning objectives so students know what to expect.]]></feedback>
+        </level>
+        <level points="1">
+          <benchmark>I usually do not include learning objectives.</benchmark>
+          <feedback><![CDATA[It is unfortunate that you usually do not include learning objectives in the lessons you design and teach. Think of learning objectives as the signs on the highway guiding you and your students to a destination. They give you a framework to design your course. They ensure that students understand what will be addressed in the course and are especially important in the online learning environment.]]></feedback>
+        </level>
+        <feedback><![CDATA[<p>Learning objectives are especially important in an online learning environment where the instructor and the student have little or no face-to-face time. Functioning as guideposts, learning objectives help students organize their efforts toward accomplishing the desired outcomes. Learning objectives also help the instructor identify whether students have gained the appropriate skills and knowledge. A learning objective is a statement:</p><ul><li>Specifying in measurable terms what a learner will know or be able to do as a result of your instruction and their learning.</li><li>Describing the intended outcome of the course rather than a description or summary of the content.</li><li>Describing the intended results rather than the means of achieving the results.</li></ul></p><p>Mager (1984) states that each learning objective has three parts:<ol><li>Performance - describes what a learner is expected to be able to do.</li><li>Conditions - describes the environment under which the performance occurs.</li><li>Assessment Element - describes how well the learner must perform for it to be considered acceptable.</li></ol>]]></feedback>
+      </assessmentElement>
+      <assessmentElement id="730727B0-7793-11DD-A3EE-388856D89593" levels="4">
+        <criterion>Teaching Plan</criterion>
+        <description>What is your planning style?</description>
+        <level points="5">
+          <benchmark>I plan ahead all the time.</benchmark>
+          <feedback><![CDATA[You reported that you plan ahead, all of the time. Great! You present the best scenario for teaching online. Have your course ready at the beginning of the semester so you can focus on your students and manage the course.]]></feedback>
+        </level>
+        <level points="3">
+          <benchmark>I am inconsistent in my planning and would like to do better.</benchmark>
+          <feedback><![CDATA[You reported that you are inconsistent in your planning and would like to do better. It is good that you want to improve in this aspect of teaching. Minimal planning can be a dangerous strategy in online teaching because you do not have a physical classroom with students - everything is virtual. Besides developing materials and managing the course, technical issues often occur and use up your time. The best plan of action is to have all of your content developed and in the course before it begins. Once the course starts you can focus your time on interacting with students and managing the course.]]></feedback>
+        </level>
+        <level points="2">
+          <benchmark>I plan only when necessary.</benchmark>
+          <feedback><![CDATA[You reported that you plan only when necessary. That can be a dangerous strategy in online teaching, because you do not have a physical classroom with students - everything is virtual. Besides developing materials and managing the course, technical issues often occur and use up your time. The best plan of action is to have all of your content developed and in the course before it begins. Once the course starts you can focus your time on interacting with students and managing the course.]]></feedback>
+        </level>
+        <level points="1">
+          <benchmark>I know what I am doing, so I "just wing it."</benchmark>
+          <feedback><![CDATA[You reported that you know what you are doing, so you "just wing it." Winging it rarely works in the online environment. You do not have a physical classroom with students - everything is virtual. Besides developing materials and managing the course, technical issues often occur and use up your time. The best plan of action is to have all of your content developed and in the course before it begins. Once the course starts you can focus your time on interacting with students and managing the course.]]></feedback>
+        </level>
+        <feedback><![CDATA[<p>Just as you would when you are creating a new face-to-face course, begin planning your online course by identifying the overall goal(s) and analyzing the purpose. A strong understanding of the needs of your learners and how your course can meet those needs is important. Consider what you want your students "to walk away with" at the conclusion of their coursework. All your course objectives, instructional strategies, content, and assignments should facilitate learners' attainment of your course goal(s). Some questions to consider as you begin planning your course are:</p><ul><li>What are your learners' characteristics?</li><li>What types of learning are involved?</li><li>What content and information is needed to facilitate learning?</li><li>What tasks do learners need to master to achieve the overall course goal(s)?</li><li>What sequence of content and activities is needed?</li><li>What technologies are available and best suited to present the content to facilitate learning?</li></ul>]]></feedback>
+      </assessmentElement>
+      <assessmentElement id="756334B8-7793-11DD-8C52-508856D89593" levels="2">
+        <criterion>Course Management System</criterion>
+        <description>I have used a course management system (such as WebCT, Blackboard, ANGEL, Desire 2 Learn, etc.) to support instruction with other courses, including posting student assignments, resources, discussions, etc.</description>
+        <level points="3">
+          <benchmark>Yes, I have used a course management system.</benchmark>
+          <feedback><![CDATA[It is good that you have used a course management system. You might want to familiarize yourself with all the tools your CMS offers because you might identify a new one that can improve communications or save you or your students time. Check out the help area of the system you are using and see what other tool options are available to you. Also, check with your institution for advanced training courses or materials.]]></feedback>
+        </level>
+        <level points="2">
+          <benchmark>No, I have not used a course management system.</benchmark>
+          <feedback><![CDATA[Since you have not used a course management system, we encourage you to try out the course management system at your institution before teaching an online course. Learn a few tools at a time and integrate them into your face-to-face courses. Most course management systems have practice accounts for your use. Also, check with your institution for training courses or materials.]]></feedback>
+        </level>
+        <feedback><![CDATA[Course Management Systems bring together the tools, policies, systems, methodologies, tips, and practices that are necessary to develop and deliver highly effective online instruction.]]></feedback>
+      </assessmentElement>
+      <assessmentElement id="8C0D217E-7793-11DD-8419-288956D89593" levels="3">
+        <criterion>Publisher's Resources</criterion>
+        <description>I have researched and examined publishers' resources for this course content.</description>
+        <level points="4">
+          <benchmark>I have researched and examined many publishers’ resources for course content.</benchmark>
+          <feedback><![CDATA[It is good that you have located digital content from publishers.]]></feedback>
+        </level>
+        <level points="3">
+          <benchmark>I have researched and examined a few publishers’ resources for course content.</benchmark>
+          <feedback><![CDATA[You reported that you have located some digital content from publishers. If you are using a textbook with the course, consider visiting the publisher's website to see if they offer high-quality digital content that you might want to incorporate. You might also visit the website associated with the course management system you use. Peruse the ePack (digital content) section of the site to see what is available.]]></feedback>
+        </level>
+        <level points="1">
+          <benchmark>I have not researched or examined any publishers’ resources for course content.
+</benchmark>
+          <feedback><![CDATA[You reported that you have not looked for digital content from publishers. If you are using a textbook with the course, consider visiting the publisher's website to see if they offer high-quality digital content that you might want to incorporate. You might also visit the website associated with the course management system you use. Peruse the ePack (digital content) section of the site to see what is available.]]></feedback>
+        </level>
+        <feedback><![CDATA[Digital content makes it easy to add compelling and interactive instructional material to online courses. Many publishers' resources contain pre-developed components such as animations, practice exercises, self-tests, case studies, and simulations. Based on instructor feedback, conversations with publishers, and the latest research on online learning, publishers' resources often contain up-to-date materials that are ready to use.]]></feedback>
+      </assessmentElement>
+      <assessmentElement id="92284F2A-7793-11DD-8148-578956D89593" levels="3">
+        <criterion>Teaching Resources</criterion>
+        <description>I have searched the Internet and located resources for teaching.</description>
+        <level points="4">
+          <benchmark>I have searched the Internet often and have located many resources for teaching. </benchmark>
+          <feedback><![CDATA[You reported that you have searched the Internet often for resources with which to enhance your course, and that you have found many. You know, then, that excellent resources are available via the Internet. Consider creating a "delicious" account (<a href="http://del.icio.us">http://del.icio.us</a>) to share these resources with your colleagues.]]></feedback>
+        </level>
+        <level points="3">
+          <benchmark>I have done some searching on the Internet and have located a few resources for teaching.</benchmark>
+          <feedback><![CDATA[You reported that you have searched the Internet for resources with which to enhance your course, and have found a few. Excellent resources are often available via the Internet, and if you don't find them your students often will. Consider asking a colleague for assistance if you are not sure where to begin.]]></feedback>
+        </level>
+        <level points="1">
+          <benchmark>I have not searched the Internet and have not found any resources for teaching.
+</benchmark>
+          <feedback><![CDATA[You reported that you have not searched the Internet for resources with which to enhance your course. Excellent resources are available via the Internet, and if you don't find them your students often will. Consider asking a colleague for assistance if you are not sure where to begin.]]></feedback>
+        </level>
+        <feedback><![CDATA[<p>Instructional resources are abundant on the World Wide Web. Below are great resources for higher education faculty to enhance instruction and build learning communities.</p><p>MERLOT: <a href="http://www.merlot.org">http://www.merlot.org</a>  Higher education online teaching and learning materials – personal collections and assignments<br/>
+ Blackboard: <a href="http://www.blackboard.com">http://www.blackboard.com</a><br/>Wikipedia: <a href="http://en.wikipedia.org/">http://en.wikipedia.org/</a></p><ul><li>Online, dynamic encyclopedia </li><li>Anyone may add or edit content</li><li>Monitored for accuracy.</li></ul>]]></feedback>
+      </assessmentElement>
+      <assessmentElement id="A19A0520-7793-11DD-B7EC-D88956D89593" levels="3">
+        <criterion>Learning Department</criterion>
+        <description>I have discussed the proposed course with my college's Teaching and Learning Center/Distance Learning department.</description>
+        <level points="4">
+          <benchmark>Yes, I have discussed the proposed course.</benchmark>
+          <feedback><![CDATA[You reported that you have discussed the course you plan to develop with the Teaching and Learning Center or Distance Learning department at your institution. Excellent! Did they provide the assistance you needed? If not, check out professional organizations and other institutions.]]></feedback>
+        </level>
+        <level points="3">
+          <benchmark>I plan to discuss the proposed course.</benchmark>
+          <feedback><![CDATA[You reported that you plan to discuss the course you plan to develop with the Teaching and Learning Center or Distance Learning department at your institution. That's great! We recommend that you do look for such resources at your institution, and ask for advice and assistance. If none exist, you might try outside organizations and other institutions.]]></feedback>
+        </level>
+        <level points="1">
+          <benchmark>No, I have not discussed the proposed course.</benchmark>
+          <feedback><![CDATA[You reported that you have not discussed the course you plan to develop with the Teaching and Learning Center or Distance Learning department at your institution. Look for such resources at your institution, and ask for advice and assistance. If none exist, you might try outside organizations and other institutions.]]></feedback>
+        </level>
+        <feedback><![CDATA[Check your institution for support units to help you with technology and pedagogy for online teaching. Also, some institutions have units dedicated to online courses.  If your institution does not have these resources, consider joining an association such as Educause, Educause Learning Initiative, Merlot, The Sloan Consortium, etc. The availability of an institutional supporting system is an important factor that may affect the success of online teaching in higher education.]]></feedback>
+      </assessmentElement>
+      <assessmentElement id="BF0BFC4E-7793-11DD-941A-E58A56D89593" levels="3">
+        <criterion>Content Permission</criterion>
+        <description>I own or have obtained permission to use content or materials I plan for this project. </description>
+        <level points="5">
+          <benchmark>Yes, I own or have obtained permission to use content or materials I plan for this project.  
+</benchmark>
+          <feedback><![CDATA[You reported that you have appropriate copyright permissions for all of the materials you plan to use in your course. That's great!! You are all set!]]></feedback>
+        </level>
+        <level points="3">
+          <benchmark>I plan to own or obtain permission to use content or materials I plan for this project.
+</benchmark>
+          <feedback><![CDATA[You reported that you plan to gain appropriate copyright permissions for all of the materials you plan to use in your course. That's good, but be sure that you follow through with your plans. Start to look for a copyright statement on the contents and materials that you are going to use. If nothing is stated there, contact the copyright holder for permission. Some colleges and universities offer this service to faculty members, often as a as a service of the library.]]></feedback>
+        </level>
+        <level points="1">
+          <benchmark>No, I do not own and have not obtained permission to use content or materials I plan for this project.
+</benchmark>
+          <feedback><![CDATA[You reported that you do not have appropriate copyright permissions for all of the materials you plan to use in your course. Please pay special attention to copyright issues when using content in online courses. Distance learning introduces issues, all of which have potential impact on rights of use, such as reproduction, conversion of formats to a digital media, storage of copies, electronic transmission of the content, user download of such content, potential of passing on such content to those not enrolled in the course, etc. Also, check the copyright policy at your institution.
+I own or have obtained permission to use content or materials I plan for this project.]]></feedback>
+        </level>
+        <feedback><![CDATA[<p>When you include any content in an online course you are performing two actions: <ol><li>Converting the material into a digital format, (creating a derivative work) and</li><li>Distributing that material via the Internet.</li></ol></p><p>These two rights belong to the copyright owner only. If you want to display, perform, or distribute something copyrighted, the safest course is to obtain permission (in writing) from the owner and give them credit. When it is not possible to obtain permission, do not use any copyrighted materials unless the use of that portion of the work weighs heavily in favor of the Fair Use Doctrine or other recognized guidelines.</p><p>Four specific factors must be considered in each instance to determine if Fair Use applies:</p><ul><li>Purpose must be for non-profit, educational use;</li><li>Nature of the material used (factual vs. fictional);</li><li>Amount of material used (the percentage of a work used in relation to the whole); and,</li><li>Effect on the current market as well as the future, potential market, or value of the work.</li></ul><p>Each of the four factors must be applied and weighed together to make a case for Fair Use.</p>]]></feedback>
+      </assessmentElement>
+    </category>
+    <category name="Category 4: Technical Skills">
+      <assessmentElement id="C7926704-7793-11DD-9E49-158B56D89593" levels="4">
+        <criterion>Computer Terminology</criterion>
+        <description>How well do you know and understand basic computer terminology, e.g., ISP, URL, browser, RAM, hard drive, USB?</description>
+        <level points="4">
+          <benchmark>I am very adept and confident.</benchmark>
+          <feedback><![CDATA[Because you are very adept and confident with regard to computer terminology, you appear to be ready from a technical knowledge standpoint.]]></feedback>
+        </level>
+        <level points="3">
+          <benchmark>I have a working knowledge.</benchmark>
+          <feedback><![CDATA[Because you have a working knowledge with regard to computer terminology, you are probably ready from a technical knowledge standpoint.]]></feedback>
+        </level>
+        <level points="2">
+          <benchmark>I understand a little bit.</benchmark>
+          <feedback><![CDATA[Because you understand a little bit with regard to computer terminology, you may want to consider taking some time to improve your computer-related knowledge before teaching online.]]></feedback>
+        </level>
+        <level points="0">
+          <benchmark>I am basically clueless.</benchmark>
+          <feedback><![CDATA[Because you confess to being basically clueless with regard to computer terminology, you should probably not consider teaching online until you improve your computer-related knowledge.]]></feedback>
+        </level>
+        <feedback><![CDATA[A little knowledge will get you a long way. Understanding the basics of computer terminology is essential when teaching online. It will help you identify and troubleshoot issues that may occur. If the need arises where you seek assistance from a help desk, it is important to be able to communicate and understand what is occurring. To learn more about basic computer terminology, visit <a href="http://www.techterms.com/">http://www.techterms.com/</a>]]></feedback>
+      </assessmentElement>
+      <assessmentElement id="DC2BE398-7793-11DD-9113-D48B56D89593" levels="4">
+        <criterion>Document Creation and Management</criterion>
+        <description>I can create and manipulate documents including formatting, copying, pasting, attaching, and retrieving them.</description>
+        <level points="5">
+          <benchmark>I am very adept and confident.</benchmark>
+          <feedback><![CDATA[Perfect! Basic word processing skills and the ability to use other basic communication tools are necessary for communicating with students and delivering your content online.]]></feedback>
+        </level>
+        <level points="3">
+          <benchmark>I have a working knowledge.</benchmark>
+          <feedback><![CDATA[Because you report that you have a working knowledge of word processing skills, you should be okay in this area. You might, however, want to enhance your skills prior to teaching online. If so, most universities provide institutional support for faculty to learn these skills. If you are unable to locate assistance on campus, search online for "word processing tutorials."]]></feedback>
+        </level>
+        <level points="2">
+          <benchmark>I understand a little bit.</benchmark>
+          <feedback><![CDATA[Because you report that you understand a little bit about word processing tools, we recommend that you take time to develop these skills prior to teaching online. Most universities provide institutional support for faculty to learn these skills. If you are unable to locate assistance on campus, search online for "word processing tutorials."]]></feedback>
+        </level>
+        <level points="0">
+          <benchmark>I am basically clueless.</benchmark>
+          <feedback><![CDATA[Because you report that you are basically clueless about word processing tools, please take time to develop these skills prior to teaching online. Most universities provide institutional support for faculty to learn these skills. If you are unable to locate assistance on campus, search online for "word processing tutorials."]]></feedback>
+        </level>
+        <feedback><![CDATA[Basic word processing skills are necessary for communicating with students and delivering your content online.]]></feedback>
+      </assessmentElement>
+      <assessmentElement id="E6F3C638-7793-11DD-BEA5-578C56D89593" levels="2">
+        <criterion>Ability to Multitask</criterion>
+        <description>Are you able to multitask with several windows open at the same time?</description>
+        <level points="5">
+          <benchmark>Yes. I multitask frequently.</benchmark>
+          <feedback><![CDATA[Being an accomplished multitasker is a useful skill for teaching online.]]></feedback>
+        </level>
+        <level points="1">
+          <benchmark>No, I rarely, if ever, multitask. I prefer to finish one thing and then move on to another.
+</benchmark>
+          <feedback><![CDATA[You reported that multitasking is not a preferred mode of operation for you. That is not necessarily a problem, but developing the ability to multitask might be an asset as you teach online.]]></feedback>
+        </level>
+        <feedback><![CDATA[Multitasking is the ability to have several files and/or applications open at one time and to move efficiently between them. This skill will allow you to have the online course open while you are reading a student's assignment in a Word document, and perhaps while you are doing other work during the day. Multitasking ability can improve your efficiency as an online instructor.]]></feedback>
+      </assessmentElement>
+      <assessmentElement id="EE9EE246-7793-11DD-9FD5-BF8C56D89593" levels="4">
+        <criterion>File and folder Management</criterion>
+        <description>Rate yourself on basic file and folder management and organizing on your computer (e.g., create new folders, copy/move files between folders, drag and drop files, rename/delete folder or file).</description>
+        <level points="5">
+          <benchmark>My files are consistently managed and organized. I am a pro!</benchmark>
+          <feedback><![CDATA[Wonderful! File management is a key skill needed for teaching online. Organization of files enables you to manage your time efficiently.]]></feedback>
+        </level>
+        <level points="4">
+          <benchmark>My files are well organized, but I could be more consistent.</benchmark>
+          <feedback><![CDATA[You reported that your files are organized well on your computer, but that you could be more consistent. It may be a good idea for you to focus on this as you prepare to teach online. To learn more about file management, do an online search for "file management tutorials" that apply to your operating system.]]></feedback>
+        </level>
+        <level points="2">
+          <benchmark>My files are semi-organized on my computer.</benchmark>
+          <feedback><![CDATA[You reported that your files are semi-organized on your computer. This may be a problem for you when you teach online courses. To learn more about file management, do an online search for "file management tutorials" that apply to your operating system.]]></feedback>
+        </level>
+        <level points="1">
+          <benchmark>My files are not managed or organized at all on my computer.</benchmark>
+          <feedback><![CDATA[You reported that your files are not managed or organized well on your computer. This will probably be a problem for you when you teach online courses. To learn more about file management, do an online search for "file management tutorials" that apply to your operating system.]]></feedback>
+        </level>
+        <feedback><![CDATA[File management is a key skill needed for teaching online courses. Organization of files enables you to manage your time efficiently.]]></feedback>
+      </assessmentElement>
+    </category>
+  </categories>
+  </analyticRubric>
+  <overallEvaluation>
+  	<level>
+  		<range>
+  			<minimumInclusive>90</minimumInclusive>
+  			<maximumInclusive>100</maximumInclusive>
+  		</range>
+  		<feedback><![CDATA[<p><b>Congratulations! According to the input you have provided, you appear to be well suited for online teaching. As you proceed towards your first online teaching experience, locate colleagues with online teaching experience, instructional designers, or other elearning professionals available at your institution for ongoing support.</b></p>]]></feedback>
+  	</level>
+  	<level>
+  		<range>
+  			<minimumInclusive>70</minimumInclusive>
+  			<maximum>90</maximum>
+  		</range>
+  		<feedback><![CDATA[<p><b>According to the input you have provided, you may be well suited for online teaching. There appears to be several areas that could present challenges for you in the online classroom. Please read through your results carefully and use the references provided for more information. It is advised that you consult with a colleague who has taught online, an instructional designer, or other elearning support persons available to you at your institution for additional help.</b></p>]]></feedback>
+  	</level>
+  	<level>
+  		<range>
+  			<minimumInclusive>0</minimumInclusive>
+  			<maximum>70</maximum>
+  		</range>
+  		<feedback><![CDATA[<p><b>According to the input you have provided, there appear to be areas that could inhibit your success in the online classroom at this time. Please read through your results carefully and use the references provided for more information. Here are some strategies to improve your readiness to teach online:
+<ul><li>Do some additional reading about teaching online</li><li>Consult with colleagues who have taught online</li><li>Take an online class, or observe an online class</li><li>Talk to an instructional designer or elearning support person at your institution</li></ul></b></p>]]></feedback>
+  	</level>
+  </overallEvaluation>
+</rubric>
