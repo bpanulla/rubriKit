@@ -2,35 +2,32 @@ package org.fraught.rubric
 
 import scala.io.Source
 import java.io.FileOutputStream
-import com.hp.hpl.jena.rdf.model.Model
-import com.hp.hpl.jena.rdf.model.ModelFactory
-import com.hp.hpl.jena.rdf.model.Resource
-import com.hp.hpl.jena.rdf.model.ResourceFactory
-import com.hp.hpl.jena.rdf.model.RDFList
-import com.hp.hpl.jena.rdf.model.RDFNode
+import com.hp.hpl.jena.rdf.model.{Model,ModelFactory,Resource,ResourceFactory,RDFNode}
 import com.hp.hpl.jena.util.FileManager
 
-import com.hp.hpl.jena.vocabulary.RDF;
-import com.hp.hpl.jena.vocabulary.RDFS;
-import com.hp.hpl.jena.vocabulary.OWL;
-import org.fraught.rubric.vocabulary.Rubric;
+import com.hp.hpl.jena.vocabulary.{RDF,RDFS,OWL}
+import org.fraught.rubric.vocabulary.Rubric
 
 object RubricXml2Rdf
 {
   
-  val baseUri = "http://fraught.org/";
-  val baseFilesystemPath = "./resources/";
-
+  val baseUri = "http://fraught.org/"
+  val baseFilesystemPath = "./resources/"
+  
   def main(args : Array[String]) : Unit =
   {
    	// create an empty Model
 	var model = ModelFactory.createDefaultModel();
 	model.setNsPrefix("rubric", Rubric.getURI);
   
-    if (args.length > 0)
-    {
-      
-      val RubricXml = scala.xml.XML.loadFile(args(0))
+ 
+    // Statically set the input filename for now
+    //if (args.length > 0)
+    //{
+  
+      val sourceFile = "./resources/xml/facultyassessrubric.xml" //args(0)
+
+      val RubricXml = scala.xml.XML.loadFile(sourceFile)
 
       val RubricId = RubricXml \ "@id"
 
@@ -148,9 +145,9 @@ object RubricXml2Rdf
       // read the RDF/XML file
       model.read(in, null);
 
-    }
-    else
-      Console.err.println("Please enter filename")
+    //}
+    //else
+    //  Console.err.println("Please enter filename")
   }
   
   
