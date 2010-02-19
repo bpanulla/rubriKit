@@ -144,6 +144,7 @@ object RubricXml2Rdf
       
       // read the RDF/XML file
       model.read(in, null);
+      println("Done.")
 
     //}
     //else
