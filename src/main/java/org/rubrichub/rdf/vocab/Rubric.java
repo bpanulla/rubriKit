@@ -4,7 +4,7 @@ import com.hp.hpl.jena.rdf.model.*;
 
 public class Rubric
 {
-	protected static final String uri ="http://rubrichub.org/owl/2010/08/rubric.owl#";
+	protected static final String uri ="http://rubrichub.org/owl/2010/01/rubric.owl#";
 	
 	private static Model m = ModelFactory.createDefaultModel();
 	
