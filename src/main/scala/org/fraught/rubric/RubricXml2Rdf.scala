@@ -10,48 +10,41 @@ import org.fraught.rubric.vocabulary.Rubric
 
 object RubricXml2Rdf
 {
-  
-  val baseUri = "http://fraught.org/"
-  val baseFilesystemPath = "./resources/"
-  
-  def main(args : Array[String]) : Unit =
-  {
-   	// create an empty Model
-	var model = ModelFactory.createDefaultModel();
-	model.setNsPrefix("rubric", Rubric.getURI);
-  
- 
-    // Statically set the input filename for now
-    //if (args.length > 0)
-    //{
-  
-      val sourceFile = "./resources/xml/facultyassessrubric.xml" //args(0)
+	val baseUri = "http://fraught.org/"
+	val baseFilesystemPath = "./resources/"
+	
+	def main(args : Array[String]) : Unit =
+	{
+		if (args.length > 0)
+		{
+    	val sourceFile = args(0)
 
-      val RubricXml = scala.xml.XML.loadFile(sourceFile)
+    	// create an empty Model
+    	var model = ModelFactory.createDefaultModel();
+    	model.setNsPrefix("rubric", Rubric.getURI);
+    	
+    	val RubricXml = scala.xml.XML.loadFile(sourceFile)
 
-      val RubricId = RubricXml \ "@id"
+    	val RubricId = RubricXml \ "@id"
+    	val destinationFilename = ""+ RubricId +".rdf"
+    	val destinationFilesystemPath = baseFilesystemPath + "generated/" + destinationFilename
+    	val RubricUri = baseUri + "rubric/" + destinationFilename + "#"
 
-      val destinationFilename = ""+ RubricId +".rdf"
-      val destinationFilesystemPath = baseFilesystemPath + "generated/" + destinationFilename
-      val RubricUri = baseUri + "rubric/" + destinationFilename + "#"
-    
-      model.setNsPrefix("", RubricUri);
+    	model.setNsPrefix("", RubricUri);
 
-      var RubricType : Resource = null
-      
-      if ((RubricXml \ "holisticRubric") != "")
-        RubricType = Rubric.HolisticRubric
-      else if (( RubricXml \ "checklistRubric" ) != "")
-        RubricType = Rubric.ChecklistRubric
-      else if (( RubricXml \ "analyticRubric" ) != "")
-        RubricType = Rubric.AnalyticRubric      
-      else
-        RubricType = Rubric.Rubric
-      
-      var thisRubric = model.createResource(RubricUri)
-        .addProperty(RDF.`type`, RubricType)
-      
-      val RubricTitle = RubricXml \ "@title"
+    	var RubricType : Resource = null
+  
+    	if ((RubricXml \ "holisticRubric") != "")
+    		RubricType = Rubric.HolisticRubric
+    	else if (( RubricXml \ "checklistRubric" ) != "")
+    		RubricType = Rubric.ChecklistRubric
+    	else if (( RubricXml \ "analyticRubric" ) != "")
+    		RubricType = Rubric.AnalyticRubric      
+    	else
+    		RubricType = Rubric.Rubric
+
+    	var thisRubric = model.createResource(RubricUri).addProperty(RDF.`type`, RubricType)
+    	val RubricTitle = RubricXml \ "@title"
       if ( RubricTitle != "" )
             thisRubric.addProperty(Rubric.title, RubricTitle.toString) 
       
@@ -78,52 +71,59 @@ object RubricXml2Rdf
 	    * Loop over Elements
 	    ********************************************************************/
         // create a stack to store the element nodes as we create them
-        var elementList : List[Resource] = Nil
         
-        for (element <- (category \ "assessmentElement"))
+        // should no longer be necessary due to the 
+        //var elementList : List[Resource] = Nil
+        
+        val criteriaList = (category \ "assessmentElement").map
         {
-          
-          val elementId = element \ "@id"
-          val elementUri = baseUri + "Rubric/element/" + elementId + "#"
-          val elementCriterion = (element \ "criterion").text
-          val elementDescription = (element \ "description").text
-          val elementFeedback = (element \ "feedback").text
-          //println(elementCriterion)
-          //println(elementDescription)
-          
-          var thisElement = model.createResource(elementUri)
-            .addProperty(RDF.`type`, Rubric.Element)
-            .addProperty(Rubric.criterion, elementCriterion)
-            .addProperty(Rubric.description, elementDescription)
-            .addProperty(Rubric.elementFeedback, elementFeedback)
-	      
-          elementList = thisElement :: elementList;
-
-          /********************************************************************
-	      * Loop over Levels
-	      ********************************************************************/
-          // create a stack to store the level nodes as we create them
-	      var levelList : List[Resource] = Nil
-	      
-	      for (level <- (element \ "level"))
+          (element) => 
+        
           {
-            var points = level \ "@points"
-            var benchmark = (level \ "benchmark").text
-            var feedback = (level \ "feedback").text
-            
-            var thisLevel = model.createResource()
-		     .addProperty(RDF.`type`, Rubric.Level)
-			 .addProperty(Rubric.score, points.toString)
-             .addProperty(Rubric.benchmark, benchmark)
-			 .addProperty(Rubric.levelFeedback, feedback)
-            
-            levelList = thisLevel :: levelList
-	      }
-       
-          thisElement.addProperty(Rubric.hasLevels, buildList(model, Rubric.LevelList, levelList))
-        }
+	          val elementId = element \ "@id"
+	          val elementUri = baseUri + "Rubric/element/" + elementId + "#"
+	          val elementCriterion = (element \ "criterion").text
+	          val elementDescription = (element \ "description").text
+	          val elementFeedback = (element \ "feedback").text
+	          //println(elementCriterion)
+	          //println(elementDescription)
+	          
+	          var thisElement = model.createResource(elementUri)
+	            .addProperty(RDF.`type`, Rubric.Element)
+	            .addProperty(Rubric.title, elementCriterion)
+	            .addProperty(Rubric.description, elementDescription)
+	            .addProperty(Rubric.elementFeedback, elementFeedback)
+		      
+	
+	          
+	          /********************************************************************
+		      * Loop over Levels
+		      ********************************************************************/
+	          // create a stack to store the level nodes as we create them
+		      var levelList : List[Resource] = Nil
+		      
+		      for (level <- (element \ "level"))
+	          {
+	            var points = level \ "@points"
+	            var benchmark = (level \ "benchmark").text
+	            var feedback = (level \ "feedback").text
+	            
+	            var thisLevel = model.createResource()
+			     .addProperty(RDF.`type`, Rubric.Level)
+				 .addProperty(Rubric.score, points.toString)
+	             .addProperty(Rubric.benchmark, benchmark)
+				 .addProperty(Rubric.levelFeedback, feedback)
+	            
+	            levelList = thisLevel :: levelList
+		      }
+	       
+	          thisElement.addProperty(Rubric.hasLevels, buildList(model, Rubric.LevelList, levelList))
 	        
-        newCat.addProperty(Rubric.hasElements, buildList(model, Rubric.ElementList, elementList)) 
+	          thisElement // Acts like return statement
+          } 
+        }
+        newCat.addProperty(Rubric.hasCategories, buildList(model, Rubric.CategoryList, criteriaList)) 
+        
       }
       
       thisRubric.addProperty(Rubric.hasCategories,  buildList(model, Rubric.CategoryList, catList)) 
@@ -146,32 +146,39 @@ object RubricXml2Rdf
       model.read(in, null);
       println("Done.")
 
-    //}
-    //else
-    //  Console.err.println("Please enter filename")
+    }
+    else
+      Console.err.println("Please enter filename")
+  }
+  
+  def rubricXmlToModel( rubricXml : String ) : Model =
+  {
+	  var model = ModelFactory.createDefaultModel()
+	  
+	  return model
   }
   
   
   
-  def buildList( model : Model, listType : Resource, resList : List[Resource]) : Resource =
+  
+  def buildList( model : Model, listType : Resource, resList : Seq[Resource]) : Resource =
   {
     // Start off the list with a nil tail
     var outList = RDF.nil
     
     for (res <- resList)
 	{
-      outList = buildListItem(model, listType, res, outList)
+     outList = buildListItem(res)
     }
-    
+  
+    def buildListItem (res : Resource) : Resource =
+	{
+	    model.createResource()
+	      .addProperty(RDF.`type`, listType)
+	      .addProperty(RDF.first, res)
+	      .addProperty(RDF.rest, outList)
+	}
+	    
     return outList
-  }
-  
-  
-  def buildListItem( model : Model, listType : Resource, res : Resource, list : Resource) : Resource =
-  {
-    model.createResource()
-      .addProperty(RDF.`type`, listType)
-      .addProperty(RDF.first, res)
-      .addProperty(RDF.rest, list)
   }
 }
