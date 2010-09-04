@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <rubric id="05861796-7793-11DD-B43C-078356D89593" creator="Carol McQuiggan" date="2008-08-18" title="Faculty Online Readiness Assessment Tool" scope="self">
   <analyticRubric>
   <categories>
@@ -270,15 +269,15 @@
         <criterion>Publisher's Resources</criterion>
         <description>I have researched and examined publishers' resources for this course content.</description>
         <level points="4">
-          <benchmark>I have researched and examined many publishers’ resources for course content.</benchmark>
+          <benchmark>I have researched and examined many publishers' resources for course content.</benchmark>
           <feedback><![CDATA[It is good that you have located digital content from publishers.]]></feedback>
         </level>
         <level points="3">
-          <benchmark>I have researched and examined a few publishers’ resources for course content.</benchmark>
+          <benchmark>I have researched and examined a few publishers' resources for course content.</benchmark>
           <feedback><![CDATA[You reported that you have located some digital content from publishers. If you are using a textbook with the course, consider visiting the publisher's website to see if they offer high-quality digital content that you might want to incorporate. You might also visit the website associated with the course management system you use. Peruse the ePack (digital content) section of the site to see what is available.]]></feedback>
         </level>
         <level points="1">
-          <benchmark>I have not researched or examined any publishers’ resources for course content.
+          <benchmark>I have not researched or examined any publishers' resources for course content.
 </benchmark>
           <feedback><![CDATA[You reported that you have not looked for digital content from publishers. If you are using a textbook with the course, consider visiting the publisher's website to see if they offer high-quality digital content that you might want to incorporate. You might also visit the website associated with the course management system you use. Peruse the ePack (digital content) section of the site to see what is available.]]></feedback>
         </level>
@@ -300,7 +299,7 @@
 </benchmark>
           <feedback><![CDATA[You reported that you have not searched the Internet for resources with which to enhance your course. Excellent resources are available via the Internet, and if you don't find them your students often will. Consider asking a colleague for assistance if you are not sure where to begin.]]></feedback>
         </level>
-        <feedback><![CDATA[<p>Instructional resources are abundant on the World Wide Web. Below are great resources for higher education faculty to enhance instruction and build learning communities.</p><p>MERLOT: <a href="http://www.merlot.org">http://www.merlot.org</a>  Higher education online teaching and learning materials – personal collections and assignments<br/>
+        <feedback><![CDATA[<p>Instructional resources are abundant on the World Wide Web. Below are great resources for higher education faculty to enhance instruction and build learning communities.</p><p>MERLOT: <a href="http://www.merlot.org">http://www.merlot.org</a>  Higher education online teaching and learning materials - personal collections and assignments<br/>
  Blackboard: <a href="http://www.blackboard.com">http://www.blackboard.com</a><br/>Wikipedia: <a href="http://en.wikipedia.org/">http://en.wikipedia.org/</a></p><ul><li>Online, dynamic encyclopedia </li><li>Anyone may add or edit content</li><li>Monitored for accuracy.</li></ul>]]></feedback>
       </assessmentElement>
       <assessmentElement id="A19A0520-7793-11DD-B7EC-D88956D89593" levels="3">
