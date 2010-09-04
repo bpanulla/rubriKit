@@ -33,12 +33,14 @@ object RubricXml2Rdf
     	model.setNsPrefix("", RubricUri);
 
     	var RubricType : Resource = null
+    	
+    	var rubricElement = RubricXml \ "holisticRubric";
   
-    	if ((RubricXml \ "holisticRubric") != "")
+    	if ((rubricElement).size > 0)
     		RubricType = Rubric.HolisticRubric
-    	else if (( RubricXml \ "checklistRubric" ) != "")
+    	else if (( RubricXml \ "checklistRubric" ).size > 0)
     		RubricType = Rubric.ChecklistRubric
-    	else if (( RubricXml \ "analyticRubric" ) != "")
+    	else if (( RubricXml \ "analyticRubric" ).size > 0)
     		RubricType = Rubric.AnalyticRubric      
     	else
     		RubricType = Rubric.Rubric
