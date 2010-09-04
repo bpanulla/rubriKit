@@ -6,7 +6,7 @@ import com.hp.hpl.jena.rdf.model.{Model,ModelFactory,Resource,ResourceFactory,RD
 import com.hp.hpl.jena.util.FileManager
 
 import com.hp.hpl.jena.vocabulary.{RDF,RDFS,OWL}
-import org.fraught.rubric.vocabulary.Rubric
+import org.rubrichub.rdf.vocab.Rubric
 
 object RubricXml2Rdf
 {

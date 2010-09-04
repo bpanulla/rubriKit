@@ -1,4 +1,4 @@
-package org.fraught.rubric.vocabulary;
+package org.rubrichub.rdf.vocab;
 
 import com.hp.hpl.jena.rdf.model.*;
 
