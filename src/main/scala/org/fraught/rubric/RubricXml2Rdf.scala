@@ -89,10 +89,10 @@ object RubricXml2Rdf
 	          //println(elementDescription)
 	          
 	          var thisElement = model.createResource(elementUri)
-	            .addProperty(RDF.`type`, Rubric.Element)
+	            .addProperty(RDF.`type`, Rubric.Criterion)
 	            .addProperty(Rubric.title, elementCriterion)
 	            .addProperty(Rubric.description, elementDescription)
-	            .addProperty(Rubric.elementFeedback, elementFeedback)
+	            .addProperty(Rubric.feedback, elementFeedback)
 		      
 	
 	          
@@ -112,7 +112,7 @@ object RubricXml2Rdf
 			     .addProperty(RDF.`type`, Rubric.Level)
 				 .addProperty(Rubric.score, points.toString)
 	             .addProperty(Rubric.benchmark, benchmark)
-				 .addProperty(Rubric.levelFeedback, feedback)
+				 .addProperty(Rubric.feedback, feedback)
 	            
 	            levelList = thisLevel :: levelList
 		      }
@@ -122,11 +122,11 @@ object RubricXml2Rdf
 	          thisElement // Acts like return statement
           } 
         }
-        newCat.addProperty(Rubric.hasCategories, buildList(model, Rubric.CategoryList, criteriaList)) 
+        newCat.addProperty(Rubric.hasCriteria, buildList(model, Rubric.CriteriaList, criteriaList)) 
         
       }
       
-      thisRubric.addProperty(Rubric.hasCategories,  buildList(model, Rubric.CategoryList, catList)) 
+      thisRubric.addProperty(Rubric.hasCriteria,  buildList(model, Rubric.CriteriaList, catList)) 
       
       print("Writing file...")
       var fout = new FileOutputStream(destinationFilesystemPath)
